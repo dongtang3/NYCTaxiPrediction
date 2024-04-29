@@ -2,6 +2,9 @@ import pandas as pd
 from datetime import datetime
 import matplotlib.pyplot as plt
 from meteostat import Point, Hourly, Daily
+# pip install meteostat
+
+
 
 # Set time period
 start = datetime(2022, 1, 1)
