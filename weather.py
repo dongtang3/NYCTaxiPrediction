@@ -29,3 +29,5 @@ dataDaily.reset_index(inplace=True)
 dataDaily = pd.DataFrame(dataDaily)
 
 dataDaily.to_csv('weather_daily_2022.csv', index=False)
+
+#https://dev.meteostat.net/python/hourly.html#data-structure 对照datastructure看
